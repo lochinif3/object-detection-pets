@@ -65,3 +65,26 @@ This project implements **YOLOv8** for object detection and classification of ca
 ## 📖 References  
 - 📂 [Oxford-IIIT Pet Dataset](https://public.roboflow.com/object-detection/oxford-pets)  
 - 📘 [YOLOv8 Documentation](https://docs.ultralytics.com/)  
+
+
+
+## 🚀 How to Run (Google Colab)  
+
+This project is designed to run in **Google Colab** with Google Drive integration.  
+You can upload the Oxford Pet dataset to your Google Drive and mount it in Colab using:  
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+The folder structure in your Google Drive should be:
+```
+Object_Detection/
+│── Object_detection_catsDogs.ipynb
+│── dataset/
+│    ├── train/
+|    └── test/
+│── data.yaml
+```
+The data.yaml file should define train/val paths and class labels for YOLOv8.
