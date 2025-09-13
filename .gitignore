@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Colab & Jupyter
+.ipynb_checkpoints/
+*.ipynb_save
+
+# Training outputs
+runs/
+*.pt
+*.weights
+
+# Datasets 
+dataset/
+yolo_dataset/
+
+# System files
+.DS_Store
+Thumbs.db
