@@ -1,0 +1,14 @@
+# YOLOv8 dataset configuration file
+
+# Paths to training and validation images
+# If running in Colab with Google Drive, update these paths accordingly.
+train: yolo_dataset/images/train
+val: yolo_dataset/images/val
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  - dog
+  - cat
